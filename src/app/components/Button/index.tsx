@@ -3,7 +3,7 @@ import { twMerge } from "tailwind-merge";
 
 export interface IButtonProps extends HTMLAttributes<HTMLButtonElement>{
     children: React.ReactNode;
-    disabled: boolean;
+    disabled?: boolean;
     variant?:'primary'|'secondary'|'tertiary'
 }
 
@@ -20,8 +20,8 @@ function getVariant(variant: IButtonProps['variant'], disabled:IButtonProps['dis
     }
 }
 
-export function Button({variant='primary',children, className, disabled, ...rest}: IButtonProps){
+export function Button({variant='primary',children, className, disabled=false, ...rest}: IButtonProps){
     return(
-        <button className={twMerge(`py-4 px-8 rounded-md ${getVariant(variant,disabled)} `,className)} disabled={disabled} {...rest}>{children}</button>
+        <button className={twMerge(` rounded-md ${getVariant(variant,disabled)} `,className)} disabled={disabled} {...rest}>{children}</button>
     )
 }
