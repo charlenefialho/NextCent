@@ -8,7 +8,7 @@ import logo5 from "../../../../public/svg/Logo-5.svg";
 import logo6 from "../../../../public/svg/Logo-6.svg";
 import icon from "../../../../public/svg/iconMember.svg";
 import iconAssociation from "../../../../public/svg/iconAssociation.svg";
-import iconClubs from "../../../../public/svg/iconClubs.svg"
+import iconClubs from "../../../../public/svg/iconClubs.svg";
 
 interface ICardCommunityProps {
   image: string;
@@ -76,8 +76,8 @@ export function Client() {
       </div>
 
       <section className="w-full flex justify-center pt-10">
-        <div className="flex flex-col text-center w-4/5">
-          <h2 className="px-56 text-3xl md:text-4xl text-neutral-d-grey font-semibold">
+        <div className="flex flex-col text-center w-full md:w-4/5 px-6 md:px-0">
+          <h2 className="text-2xl md:text-4xl lg:text-5xl text-neutral-d-grey font-semibold">
             Manage your entire community in a single system
           </h2>
           <p className="font-base text-neutral-grey mt-2">
@@ -86,18 +86,18 @@ export function Client() {
         </div>
       </section>
 
-      <section className="w-full flex items-center justify-evenly mt-4">
+      <section className="w-full flex items-center justify-evenly mt-4 flex-wrap">
         <CardCommunity
           image={icon}
           title="Membership Organisations"
           description="Our membership management software provides full automation of membership renewals and payments"
         />
-         <CardCommunity
+        <CardCommunity
           image={iconAssociation}
           title="National Associations"
           description="Our membership management software provides full automation of membership renewals and payments"
         />
-         <CardCommunity
+        <CardCommunity
           image={iconClubs}
           title="Clubs And Groups"
           description="Our membership management software provides full automation of membership renewals and payments"
