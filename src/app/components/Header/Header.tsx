@@ -11,7 +11,7 @@ export function Header() {
   const [open, setOpen] = useState(false);
 
   return (
-    <header className=" border-b border-gray-300 ">
+    <header>
       <div className=" flex justify-between my-8 md:my-8 md:mx-auto xl:max-w-7xl max-w-full flex-wrap w-full">
         <Image className="inline ml-7" src={Logo} alt="nextcent" />
 
