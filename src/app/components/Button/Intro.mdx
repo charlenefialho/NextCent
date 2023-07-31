@@ -1,0 +1,32 @@
+import { Meta, Controls , Primary, Canvas} from "@storybook/blocks";
+
+import * as Story from "./Button.stories.tsx";
+
+<Meta of={Story}/>
+
+# Botão
+
+Componente de botão usado para disparar ações.
+
+
+## Primário
+<Canvas of={Story.Primary}/>
+
+## Desabilitado
+<Canvas of={Story.Disabled}/>
+ 
+## Secundário
+<Canvas of={Story.Secondary}/>
+
+## Secundário desabilitado
+<Canvas of={Story.SecondaryDisabled}/>
+
+## Terciário
+<Canvas of={Story.Terciary}/>
+
+## Terciário desabilitado
+<Canvas of={Story.TerciaryDisabled}/>
+
+## Documentação interativa
+<Primary/>
+<Controls/>
