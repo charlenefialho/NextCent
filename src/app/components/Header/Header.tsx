@@ -65,13 +65,11 @@ export function Header() {
               variant="tertiary"
             >
               <Link className=" block lg:px-5 py-2.5 " href="#">
-                Home
+                Login
               </Link>
             </Button>
             <Button className="w-1/3 lg:w-1/2  block rounded-lg ">
-              <Link className="block lg:px-5 py-2.5  " href="#">
-                Home
-              </Link>
+              <Link className="block lg:px-5 py-2.5  " href="#">Sign Up</Link>
             </Button>
           </div>
         </nav>

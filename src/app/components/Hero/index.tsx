@@ -23,7 +23,7 @@ export function Hero() {
           </div>
           <Image className="hidden lg:block lg:pr-10" src={ilustration} width={391} height={407} alt="Ilustração"  />
         </div>
-
+        
         <img
           alt="..."
           src="https://flowbite.com/docs/images/carousel/carousel-2.svg"
