@@ -11,6 +11,10 @@ module.exports = {
       inter: 'Inter, sans-serif'
     },
     extend: {
+      screens:{
+        md:'800px',
+        lp: '1024px'
+      },
       colors:{
         primary:'rgba(var(--primary), <alpha-value>)',
         secondary:'rgba(var(--secondary), <alpha-value>)',
