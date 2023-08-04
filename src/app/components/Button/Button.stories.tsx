@@ -9,7 +9,7 @@ const meta: Meta<IButtonProps> = {
       type: "string",
     },
     variant: {
-      options: ["primary", "secondary", "terciary"],
+      options: ["primary", "secondary", "tertiary"],
       control: { type: "inline-radio" },
     },
     disabled: { control: { type: "boolean" } },
