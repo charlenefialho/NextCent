@@ -1,11 +1,12 @@
 "use client";
+
 import Link from "next/link";
 import { useState } from "react";
 import Image from "next/image";
 import { FiMenu } from "react-icons/fi";
 
-import Logo from "../../../../public/svg/logo.svg";
-import { Button } from "../Button";
+import Logo from "@/app/assets/svg/logo.svg";
+import { Button } from "@/app/components/Button";
 
 export function Header() {
   const [open, setOpen] = useState(false);
@@ -29,32 +30,35 @@ export function Header() {
         >
           <ul className="w-full text-lg pt-5 font-medium   md:pt-0 lg:flex  lg:justify-between lg:items-center  gap-5">
             <li>
-              <Link className="py-3 block font-base text-center" href="#">
+              <Link
+                className="py-3 block font-base text-center hover:font-bold"
+                href="/#hero"
+              >
                 Home
               </Link>
             </li>
             <li>
-              <Link className="py-3 block text-center" href="#">
+              <Link className="py-3 block text-center hover:font-bold" href="/#client">
                 Service
               </Link>
             </li>
             <li>
-              <Link className="py-3 block text-center" href="#">
+              <Link className="py-3 block text-center hover:font-bold" href="#">
                 Feature
               </Link>
             </li>
             <li>
-              <Link className="py-3 block text-center" href="#">
+              <Link className="py-3 block text-center hover:font-bold" href="#">
                 Product
               </Link>
             </li>
             <li>
-              <Link className="py-3 block text-center" href="#">
+              <Link className="py-3 block text-center hover:font-bold" href="#">
                 Testimonial
               </Link>
             </li>
             <li>
-              <Link className="py-3 block text-center" href="#">
+              <Link className="py-3 block text-center hover:font-bold" href="#">
                 FAQ
               </Link>
             </li>

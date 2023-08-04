@@ -4,7 +4,6 @@ module.exports = {
     './src/pages/**/*.{js,ts,jsx,tsx,mdx}',
     './src/components/**/*.{js,ts,jsx,tsx,mdx}',
     './src/app/**/*.{js,ts,jsx,tsx,mdx}',
-    './node_modules/flowbite-react/**/*.js', './app/**/*.{ts,tsx}', './public/**/*.html',
   ],
   theme: {
     fontFamily:{
@@ -52,10 +51,10 @@ module.exports = {
       },
       boxShadow:{
         'shadow-2':'var(--shadow-2)',
-        'shadow-4':'var(--shadow-2)',
-        'shadow-6':'var(--shadow-2)',
-        'shadow-8':'var(--shadow-2)',
-        'shadow-16':'var(--shadow-2)',
+        'shadow-4':'var(--shadow-4)',
+        'shadow-6':'var(--shadow-6)',
+        'shadow-8':'var(--shadow-8)',
+        'shadow-16':'var(--shadow-16)',
       },
       borderRadius:{
         none: 'var(--border-radius-non)',
@@ -64,7 +63,4 @@ module.exports = {
       }
     },
   },
-  plugins: [
-    require('flowbite/plugin')
-  ],
 }
