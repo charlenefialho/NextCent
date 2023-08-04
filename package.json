@@ -28,6 +28,7 @@
     "typescript": "5.1.6"
   },
   "devDependencies": {
+    "@rocketseat/eslint-config": "^2.1.0",
     "@storybook/addon-controls": "^7.2.1",
     "@storybook/addon-essentials": "^7.1.1",
     "@storybook/addon-interactions": "^7.1.1",
