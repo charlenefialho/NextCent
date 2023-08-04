@@ -32,7 +32,7 @@ const CardCommunity = ({ image, title, description }: ICardCommunityProps) => {
 
 export function Client() {
   return (
-    <section className="w-full flex flex-col items-center pt-10">
+    <section className="w-full max-w-[2560px] flex flex-col items-center pt-10 2xl:justify-center 2xl:flex">
       <div className="flex flex-col text-center w-4/5">
         <h2 className="text-4xl md:text-5xl text-neutral-d-grey font-semibold">
           Our Clients
