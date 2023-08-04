@@ -8,9 +8,9 @@ import { Button } from "../Button";
 
 export function Hero() {
   return (
-    <section className="w-full h-screen bg-neutral-silver flex justify-center items-center">
+    <section className="w-full h-screen max-w-[2560px] bg-neutral-silver flex justify-center items-center ">
       <Carousel leftControl="." rightControl="." slide={false} className="-mt-20 h-4/5">
-        <div className="flex  justify-center gap-28">
+        <div className="flex h-4/5  justify-center gap-28">
           <div className="p-5 lg:p-10 flex flex-col items-center md:items-start leading-10">
             <h1 className=" text-center md:text-left font-semibold text-4xl md:text-5xl lg:text-6xl text-neutral-d-grey ">
               Lessons and insights{" "}
