@@ -11,8 +11,8 @@ export function Header() {
   const [open, setOpen] = useState(false);
 
   return (
-    <header>
-      <div className=" flex justify-between my-8 md:my-8 md:mx-auto xl:max-w-7xl max-w-full flex-wrap w-full">
+    <header className="w-full  max-w-[2560px]  2xl:justify-center 2xl:flex">
+      <div className="w-full flex justify-between my-8 md:my-8 md:mx-auto xl:max-w-7xl max-w-[1440px] flex-wrap ">
         <Image className="inline ml-7" src={Logo} alt="nextcent" />
 
         <button
@@ -69,7 +69,9 @@ export function Header() {
               </Link>
             </Button>
             <Button className="w-1/3 lg:w-1/2  block rounded-lg ">
-              <Link className="block lg:px-5 py-2.5  " href="#">Sign Up</Link>
+              <Link className="block lg:px-5 py-2.5  " href="#">
+                Sign Up
+              </Link>
             </Button>
           </div>
         </nav>
