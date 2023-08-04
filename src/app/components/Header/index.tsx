@@ -1,15 +1,15 @@
-"use client";
+'use client'
 
-import Link from "next/link";
-import { useState } from "react";
-import Image from "next/image";
-import { FiMenu } from "react-icons/fi";
+import Image from 'next/image'
+import Link from 'next/link'
+import { useState } from 'react'
+import { FiMenu } from 'react-icons/fi'
 
-import Logo from "@/app/assets/svg/logo.svg";
-import { Button } from "@/app/components/Button";
+import Logo from '@/app/assets/svg/logo.svg'
+import { Button } from '@/app/components/Button'
 
 export function Header() {
-  const [open, setOpen] = useState(false);
+  const [open, setOpen] = useState(false)
 
   return (
     <header className="w-full  max-w-[2560px]  2xl:justify-center 2xl:flex">
@@ -25,7 +25,7 @@ export function Header() {
 
         <nav
           className={`${
-            open ? "block" : "hidden"
+            open ? 'block' : 'hidden'
           } w-full lg:flex lg:items-center mx-auto lg:w-auto lg:gap-5 xl:gap-10`}
         >
           <ul className="w-full text-lg pt-5 font-medium   md:pt-0 lg:flex  lg:justify-between lg:items-center  gap-5">
@@ -38,7 +38,10 @@ export function Header() {
               </Link>
             </li>
             <li>
-              <Link className="py-3 block text-center hover:font-bold" href="/#client">
+              <Link
+                className="py-3 block text-center hover:font-bold"
+                href="/#client"
+              >
                 Service
               </Link>
             </li>
@@ -81,5 +84,5 @@ export function Header() {
         </nav>
       </div>
     </header>
-  );
+  )
 }

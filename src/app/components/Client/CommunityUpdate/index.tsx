@@ -1,13 +1,13 @@
-import Image, { StaticImageData } from "next/image";
-import Link from "next/link";
+import Image, { StaticImageData } from 'next/image'
+import Link from 'next/link'
 
-import img from "@/app/assets/image/image1.png";
-import img2 from "@/app/assets/image/image2.png";
-import img3 from "@/app/assets/image/image3.png";
+import img from '@/app/assets/image/image1.png'
+import img2 from '@/app/assets/image/image2.png'
+import img3 from '@/app/assets/image/image3.png'
 
 interface ICardProps {
-  imageUrl: StaticImageData;
-  title: string;
+  imageUrl: StaticImageData
+  title: string
 }
 
 const Card = ({ imageUrl, title }: ICardProps) => {
@@ -29,8 +29,8 @@ const Card = ({ imageUrl, title }: ICardProps) => {
         </h4>
       </div>
     </section>
-  );
-};
+  )
+}
 export function CommunityUpdate() {
   return (
     <section className="w-full max-w-[2560px] flex flex-col items-center pt-10 2xl:justify-center 2xl:flex">
@@ -40,7 +40,7 @@ export function CommunityUpdate() {
         </h2>
         <p className="font-base text-neutral-grey text-justify px-4 md:text-center md:px-20 lg:px-44 xl:px-64">
           The Nexcent blog is the best place to read about the latest membership
-          insights, trends and more. See who's joining the community, read about
+          insights, trends and more. See whos joining the community, read about
           how our community is increasing their membership income and lots more.
         </p>
       </div>
@@ -60,5 +60,5 @@ export function CommunityUpdate() {
         />
       </section>
     </section>
-  );
+  )
 }

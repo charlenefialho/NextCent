@@ -1,19 +1,19 @@
-import Image from "next/image";
+import Image from 'next/image'
 
-import logo1 from "@/app/assets/svg/Logo-1.svg";
-import logo2 from "@/app/assets/svg/Logo-2.svg";
-import logo3 from "@/app/assets/svg/Logo-3.svg";
-import logo4 from "@/app/assets/svg/Logo-4.svg";
-import logo5 from "@/app/assets/svg/Logo-5.svg";
-import logo6 from "@/app/assets/svg/Logo-6.svg";
-import icon from "@/app/assets/svg/iconMember.svg";
-import iconAssociation from "@/app/assets/svg/iconAssociation.svg";
-import iconClubs from "@/app/assets/svg/iconClubs.svg";
+import logo1 from '@/app/assets/svg/Logo-1.svg'
+import logo2 from '@/app/assets/svg/Logo-2.svg'
+import logo3 from '@/app/assets/svg/Logo-3.svg'
+import logo4 from '@/app/assets/svg/Logo-4.svg'
+import logo5 from '@/app/assets/svg/Logo-5.svg'
+import logo6 from '@/app/assets/svg/Logo-6.svg'
+import iconAssociation from '@/app/assets/svg/iconAssociation.svg'
+import iconClubs from '@/app/assets/svg/iconClubs.svg'
+import icon from '@/app/assets/svg/iconMember.svg'
 
 interface ICardCommunityProps {
-  image: string;
-  title: string;
-  description: string;
+  image: string
+  title: string
+  description: string
 }
 
 const CardCommunity = ({ image, title, description }: ICardCommunityProps) => {
@@ -27,12 +27,15 @@ const CardCommunity = ({ image, title, description }: ICardCommunityProps) => {
       </h3>
       <div className="text-neutral-grey text-center text-sm">{description}</div>
     </div>
-  );
-};
+  )
+}
 
 export function Client() {
   return (
-    <section id="client" className="w-full max-w-[2560px] flex flex-col items-center pt-10 2xl:justify-center 2xl:flex">
+    <section
+      id="client"
+      className="w-full max-w-[2560px] flex flex-col items-center pt-10 2xl:justify-center 2xl:flex"
+    >
       <div className="flex flex-col text-center w-4/5">
         <h2 className="text-4xl md:text-5xl text-neutral-d-grey font-semibold">
           Our Clients
@@ -104,5 +107,5 @@ export function Client() {
         />
       </section>
     </section>
-  );
+  )
 }

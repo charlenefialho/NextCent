@@ -1,11 +1,11 @@
-import Image from "next/image";
+import Image from 'next/image'
 
-import { Button } from "@/app/components/Button";
+import { Button } from '@/app/components/Button'
 
 export interface IUnlock {
-  imageUrl: string;
-  title: string;
-  description: string;
+  imageUrl: string
+  title: string
+  description: string
 }
 
 export function Unlock({ imageUrl, title, description }: IUnlock) {
@@ -32,5 +32,5 @@ export function Unlock({ imageUrl, title, description }: IUnlock) {
         </div>
       </div>
     </section>
-  );
+  )
 }

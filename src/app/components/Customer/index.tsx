@@ -1,12 +1,12 @@
-import Image from "next/image";
+import Image from 'next/image'
 
-import imgCustomer from "@/app/assets/image/customerImage.png";
-import logo1 from "@/app/assets/svg/Logo-1.svg";
-import logo2 from "@/app/assets/svg/Logo-2.svg";
-import logo3 from "@/app/assets/svg/Logo-3.svg";
-import logo4 from "@/app/assets/svg/Logo-4.svg";
-import logo5 from "@/app/assets/svg/Logo-5.svg";
-import logo6 from "@/app/assets/svg/Logo-6.svg";
+import imgCustomer from '@/app/assets/image/customerImage.png'
+import logo1 from '@/app/assets/svg/Logo-1.svg'
+import logo2 from '@/app/assets/svg/Logo-2.svg'
+import logo3 from '@/app/assets/svg/Logo-3.svg'
+import logo4 from '@/app/assets/svg/Logo-4.svg'
+import logo5 from '@/app/assets/svg/Logo-5.svg'
+import logo6 from '@/app/assets/svg/Logo-6.svg'
 
 export function Customer() {
   return (
@@ -26,7 +26,7 @@ export function Customer() {
             enim metus. Vivamus sed libero ornare, tristique quam in, gravida
             enim. Nullam ut molestie arcu, at hendrerit elit. Morbi laoreet elit
             at ligula molestie, nec molestie mi blandit. Suspendisse cursus
-            tellus sed augue ultrices, quis tristique nulla sodales. 
+            tellus sed augue ultrices, quis tristique nulla sodales.
           </p>
           <h4 className="font-semibold text-base md:text-lg lg:tex-xl text-primary mb-4">
             Tim Smith
@@ -74,5 +74,5 @@ export function Customer() {
         </div>
       </div>
     </section>
-  );
+  )
 }

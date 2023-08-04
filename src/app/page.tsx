@@ -1,14 +1,14 @@
-import { Achievements } from "@/app/components/Achievements";
-import { Client } from "@/app/components/Client";
-import { Header } from "@/app/components/Header/index";
-import { Hero } from "@/app/components/Hero";
-import { Unlock } from "@/app/components/Unlock";
+import { Achievements } from '@/app/components/Achievements'
+import { Client } from '@/app/components/Client'
+import { Header } from '@/app/components/Header/index'
+import { Hero } from '@/app/components/Hero'
+import { Unlock } from '@/app/components/Unlock'
 
-import mobileLoginRafikin from "@/app/assets/svg/mobileLoginRafikin.svg";
-import mobileLoginPana from "@/app/assets/svg/mobileLoginPana.svg";
-import { Footer } from "@/app/components/Footer";
-import { Customer } from "@/app/components/Customer";
-import { CommunityUpdate } from "@/app/components/CommunityUpdate";
+import mobileLoginPana from '@/app/assets/svg/mobileLoginPana.svg'
+import mobileLoginRafikin from '@/app/assets/svg/mobileLoginRafikin.svg'
+import { CommunityUpdate } from '@/app/components/Client/CommunityUpdate'
+import { Customer } from '@/app/components/Customer'
+import { Footer } from '@/app/components/Footer'
 
 export default function Home() {
   return (
@@ -31,5 +31,5 @@ export default function Home() {
       <CommunityUpdate />
       <Footer />
     </div>
-  );
+  )
 }

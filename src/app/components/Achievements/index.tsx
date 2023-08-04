@@ -1,14 +1,14 @@
-import Image from "next/image";
+import Image from 'next/image'
 
-import iconClubs from "@/app/assets/svg/iconClubs.svg";
-import iconPeople from "@/app/assets/svg/iconPeople.svg";
-import iconFinger from "@/app/assets/svg/iconFinger.svg";
-import iconPayment from "@/app/assets/svg/iconPayment.svg";
+import iconClubs from '@/app/assets/svg/iconClubs.svg'
+import iconFinger from '@/app/assets/svg/iconFinger.svg'
+import iconPayment from '@/app/assets/svg/iconPayment.svg'
+import iconPeople from '@/app/assets/svg/iconPeople.svg'
 
 interface ICounts {
-  imageUrl: string;
-  number: string;
-  label: string;
+  imageUrl: string
+  number: string
+  label: string
 }
 
 export function Achievements() {
@@ -21,7 +21,7 @@ export function Achievements() {
         <section className="flex flex-col  md:flex-row justify-between items-center ">
           <div className="text-center md:text-left mb-8 md:mb-0">
             <h2 className="font-semibold text-2xl md:text-3xl lg:text-4xl text-neutral-d-grey">
-              Helping a local{" "}
+              Helping a local{' '}
             </h2>
             <h2 className="font-semibold text-primary text-2xl md:text-3xl xl:text-4xl lg:text-4xl">
               business reinvent itself
@@ -43,7 +43,7 @@ export function Achievements() {
         </section>
       </section>
     </section>
-  );
+  )
 }
 
 function Count({ imageUrl, number, label }: ICounts) {
@@ -59,5 +59,5 @@ function Count({ imageUrl, number, label }: ICounts) {
         <p className="text-neutral-grey font-base">{label}</p>
       </div>
     </section>
-  );
+  )
 }
