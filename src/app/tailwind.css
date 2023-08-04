@@ -10,6 +10,7 @@
 
 *{
     font-family: 'Inter', sans-serif;
+    
 }
 
 @layer base{
@@ -51,6 +52,5 @@
         --border-radius-none:0px;
         --border-radius-sm:2px;
         --border-radius-md:4px;
-
-    }
+    }   
 }
