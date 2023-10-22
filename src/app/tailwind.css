@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'Inter';
+    src: url('../fonts/Inter-Regular.ttf') format('ttf');
+    font-style: normal;
+}
+
+*{
+  font-family: 'Inter', sans-serif;
+}
+
+@layer base{
+    :root{
+        --primary: 76, 175, 79;
+        --secondary:38, 50, 56;
+        --Info:33, 148, 243;
+
+        --neutral-white:255, 255, 255;
+        --neutral-black: 38, 50, 56;
+        --neutral-d-grey:77, 77, 77;
+        --neutral-grey:113, 113, 113;
+        --neutral-l-grey:137, 147, 158;
+        --neutral-grey-blue:171, 190, 209;
+        --neutral-silver:245, 247, 250;
+        
+        --shade-s-1: 67, 160, 70;
+        --shade-s-2:56, 142, 59;
+        --shade-s-3:35, 125, 49;
+        --shade-s-4:27, 94, 31;
+        --shade-s-5:16, 62, 19;
+
+        --tint-t-1:102, 187, 105;
+        --tint-t-2:129, 199, 132;
+        --tint-t-3:165, 214, 167;
+        --tint-t-4:200, 230, 201;
+        --tint-t-5:232, 245, 233;
+
+        --action-warning:251, 192, 45;
+        --action-error:229, 56, 53;
+        --action-success:46, 125, 49;
+
+        --shadow-2: 0px 2px 4px 0px rgba(171, 190, 209, 0.60);
+        --shadow-4: 0px 4px 8px 0px rgba(171, 190, 209, 0.40);
+        --shadow-6:0px 6px 12px 0px rgba(171, 190, 209, 0.30);
+        --shadow-8:0px 8px 16px 0px rgba(171, 190, 209, 0.40);
+        --shadow-16:0px 16px 32px 0px rgba(171, 190, 209, 0.30);
+
+        --border-radius-none:0px;
+        --border-radius-sm:2px;
+        --border-radius-md:4px;
+    }   
+}
